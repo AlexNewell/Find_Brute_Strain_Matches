@@ -16,9 +16,6 @@ engine = create_aws_postgres_engine(env = 'prod'
 # --------------------------------------------------------------------------------------------------------
 # SECTION: Load all possible strains found in Retail and Product tables for brute force matching
 # --------------------------------------------------------------------------------------------------------
-
-
-# Load retail strains
 qa_codetimer_start(qa_run)
 
 strains_holder = pd.DataFrame()
